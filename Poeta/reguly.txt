@@ -1,0 +1,170 @@
+WIERSZ = DLUGI DLUGI KROTKI PAUZA DLUGI DLUGI FRAZA |
+	 DLUGI KROTKI FRAZA PAUZA DLUGI FRAZA |
+	 DLUGI DLUGI PAUZA DLUGI DLUGI PAUZA FRAZA |
+	 DLUGI KROTKI DLUGI FRAZA |
+	 DLUGI DLUGI FRAZA
+
+WERS = DLUGI | KROTKI | FRAZA
+
+DLUGI = FRZM DOP2 ORZM | FRZF DOP2 ORZF | 
+   FRZM DOP2 ORZM | FRZF DOP2 ORZF | FRZN DOP2 ORZN |
+   FRZM DOP2 ORZM | FRZF DOP2 ORZF | 
+   FRZM DOP2 ORZM | FRZF DOP2 ORZF | FRZN DOP2 ORZN |
+   FL FRZM DOP2 ORZM | FL FRZF DOP2 ORZF | FL FRZN DOP2 ORZN |
+   FRZM DOP2 ORZM POR FRZ | FRZF DOP2 ORZF POR FRZ | 
+   FRZN DOP2 ORZN POR FRZ 
+   
+KROTKI = FRZM ORZM | FRZF ORZF | FRZM ORZM | FRZF ORZF |  FRZN ORZN |
+    ORZ0 | ORZ0 | ORZ0 | FRAZA | FRAZA | POR FRZ 
+
+ZDWZGL = FRZM ORZM | FRZF ORZF | FRZM ORZM | FRZF ORZF | FRZN ORZN
+
+POR = jak | jak | jak | niczym 
+
+FRZ = FRZF | FRZF | FRZM | FRZM | FRZN |
+      FRZF DOP2 | FRZF DOP2 | FRZM DOP2 | FRZM DOP2 | FRZN DOP2
+
+FRZF = PRZF RZF | RZF
+
+FRZM = PRZM RZM | RZM
+
+FRZN = PRZN RZN | RZN
+
+RZM = d±b | las | stó³ | chleb | nó¿ | li¶æ | ptak | 
+   dom | fortepian | grzmot | ogieñ | mur | kielich | po¿ar |
+   tygrys | smutek | deszcz | cieñ | cierñ | dzban | feniks |
+   go³±b | jêzyk | kamieñ | kot | klucz | ksiê¿yc | lampart |
+   oddech | poca³unek | ogród | wieniec | podmuch | powiew | szczur |
+   smok | wiatr | grobowiec | kruk | labirynt | miecz | wilk |
+   ¿aglowiec | krzew | krzak | zapach | smak | rytua³ | o³tarz |
+   g³ód | g³os | piasek | pier¶cieñ | zamek | ptak | orze³ |
+   sêp | kruk | taniec 
+      
+RZF = latarnia | szklanka | jaskinia | pochodnia | zapa³ka | lutnia |
+   noc | ciemno¶æ | nico¶æ | rozpacz | ¶mieræ | czerñ |
+   kotwica | ¶wieca | têcza | studnia | woda | burza | 
+   jaszczurka | trumna | lilia | nago¶æ | ¼renica | pantera |
+   kometa | gwiazda | b³yskawica | droga | ³za | ka³u¿a | 
+   natura | nadzieja | wiara | my¶l | przepa¶æ | broñ | brama |
+   d³oñ | chmura | jaskó³ka | harfa | w³ócznia |
+   per³a | pustynia | ró¿a | waga | wie¿a | ska³a | fala |
+   ple¶ñ | melodia | muzyka | elegia | pokusa | pie¶ñ |
+   piosenka | twarz
+         
+RZN = pióro | lustro | oko | ognisko | okno | wino | drzewo |
+   zwierzê | zw±tpienie | ¿ycie | morze | z³oto | srebro |
+   serce | s³oñce | ³o¿e | rozdro¿e | echo |
+   ziele | muzeum | ol¶nienie | ¶wiêto | pragnienie |
+   po¿±danie | z³udzenie | wieko | jab³ko | wspomnienie 
+               
+PRZF = bezw³adna | pêkniêta | szklana | blada | pogrzebana |
+   spalona | niepewna | mglista | mokra | czarna | ciemna |
+   mroczna | zapomniana | opuszczona | bezradna | p³on±ca |
+   wiêdn±ca | bolesna | b³êdna | mêtna | stêskniona | ¶pi±ca |
+   srebrzysta | m¶ciwa | zazdrosna | sprawiedliwa | 
+   mi³osna | kusz±ca | koj±ca | s³odka | wieczna | zmys³owa |
+   zawstydzona 
+      
+PRZN = ciche | st³uczone | niewinne | zabite | zmêczone |
+   monotonne | czarne | fioletowe | prastare | dawne |
+   niepewne | dr¿±ce | pêkniête | porzucone | miêkkie | cienkie |
+   p³askie | wiotkie | g³êbokie | u¶pione | senne 
+         
+PRZM = zwyciêski | przegrany | purpurowy | granatowy | 
+   milcz±cy | wielki | bia³y | czarny | szary | samotny | 
+   triumfalny | zamy¶lony | ostatni | zb³±kany | s³aby | spragniony |
+   drzemi±cy | opadaj±cy | upad³y | ¶wietlisty | bolesny | lekki |
+   lec±cy | twardy | ciê¿ki | gwa³towny | gorzki | zapomniany
+   
+ORZ0 = ¶piewa | milczy | przebacza | umiera | szepcze | trwa | 
+   grzmi | odchodzi | p³acze | zginie | ¶pi | ¿yje | czeka |
+   czeka_na BIER | pije BIER | pêka | 
+   zbiera BIER | wêdruje | szuka DOP | b³±dzi | chwali BIER |
+   ginie | niesie BIER | ¶piewa_o MSC | umiera_w MSC | ¶pi_w MSC |
+   poszukuje DOP | ¶ni_o MSC | p³onie | tonie w MSC |
+   trwa_w MSC | b³±dzi_w MSC | drzemie | krzyczy | koñczy_siê |
+   to FRZF | to FRZF | to FRZM | to FRZM | to FRZN | chce DOP |
+   to_nie FRZF | to_nie RZF | to_nie FRZM | to_nie FRZM | to_nie FRZN | 
+   chce DOP | patrzy_na BIER | widzi BIER | opowiada_o MSC |
+   marzy_o MSC | nie_pragnie DOP | po¿±da DOP | pogr±¿a_siê_w MSC |
+   kryje_siê_w MSC | mieszka_w MSC | zapomni_o MSC |
+   pamiêta_o MSC | nie_czeka_na BIER | wierzy_w BIER |
+   wzywa DOP | nie_wie_o MSC | uwierzy_¿e ZDWZGL |
+   wróci | leczy | nie_wróci | trwa 
+               
+ORZN = ORZ0 | ORZ0 | ORZ0 | ORZN0
+
+ORZN0 = upad³o | zamar³o | zastyg³o | zmok³o | skar¿y³o_siê_na BIER |
+   zapad³o_siê | rozsypa³o_siê | powsta³o | otwar³o_siê | zamknê³o_siê |
+   zad¼wiêcza³o | jest PRZN | bêdzie PRZN | by³o PRZN
+
+ORZF = ORZ0 | ORZ0 | ORZ0 | ORZF0
+
+ORZF0 = znik³a | wygas³a | umar³a | zwiêd³a | 
+   zniszczy³a BIER | zatopi³a BIER | opu¶ci³a BIER | zd³awi³a BIER |
+   rozmy³a_siê_w MSC | jest PRZF | bêdzie PRZF | by³a PRZF
+   
+ORZM = ORZ0 | ORZ0 | ORZ0 | ORZM0
+
+ORZM0 = rozb³ysn±³ | odszed³ | uwierzy³_w BIER | zakwit³ | usn±³ |
+   uciek³_od DOP | zapomnia³ BIER | ¶ni³_o MSC |
+   zab³ysn±³_w¶ród DOP | rozpocz±³ BIER | jest PRZM |
+   bêdzie PRZM | by³ PRZM
+   
+FRAZA = tak_to_siê_skoñczy | dlaczego_tak | bez_sensu | nic_siê_nie_dzieje |
+   i_nic | tak_bêdzie | wci±¿_od_nowa | wiêcej_nic |
+   czas_p³ynie | to_inni | nie_warto | oto_jest | cisza |
+   dla_kogo | czemu | ale_jak | dalej_dalej |
+   w_oddali | potem_ju¿_nic | za_pó¼no | jeszcze_nie | ci±gle_dalej |
+   wci±¿_bardziej | czas_p³ynie | zaczekaj | p³yñ | odchodzisz |
+   ja_te¿ | mo¿e_nie | czekam | my¶lê | trwam | ginê | cierpiê |
+   pragnê | ju¿_wiem | czekam_na BIER | widzia³em BIER |
+   s³ysza³em BIER | czujê BIER | odesz³a¶ | zosta³em_sam | 
+   zostawiasz_mnie | znowu | inaczej | 
+   têskniê | umieram | p³aczê | zostañ | jestem_sam |
+   wszyscy_odeszli | chcê_uciec | wracam |
+   nadaremnie | bezg³o¶nie | beznadziejnie | ciemno |
+   na_pró¿no | bez_nadziei | w_ciemno¶ci | poza_mn± | bez_nas |
+   w_nieskoñczono¶ci | w_bezkresie | bez_ciebie |
+   od_wieków | wiecznie | w_pu³apce | ofiarowa³em BIER |
+   wiem_¿e ZDWZGL | nie_wiem_czy ZDWZGL |
+   wierzê_¿e ZDWZGL | pytam_czy ZDWZGL |
+   czy_wiesz_¿e ZDWZGL | nie_wiadomo_czy ZDWZGL |
+   nigdy_nie_wiesz_czy ZDWZGL | nie_ma_pewno¶ci_czy ZDWZGL |
+   nadzieja_¿e ZDWZGL | pewno¶æ_¿e ZDWZGL | jaka_cisza | jak_smutno |
+   nic_nie_zosta³o | powiedz_¿e ZDWZGL | krzyczy_¿e ZDWZGL |
+   kto¶ ORZM | to_ten_kto ORZ0 | jakby FRZ ORZ0
+   dla_kogo¶_kto ORZM | kto¶ ORZM i ORZ0 | i_nic_ju¿_nie_wiem |
+   i_tylko FRZ ORZ0 | tylko FRZM jest_naprawdê PRZM |
+   tylko FRZF jest PRZF | FRZN bywa PRZN 
+            
+FL = znowu | chocia¿ | ale | kiedy | przecie¿ |
+     nawet | mo¿e | choæ | czy | czemu | jeszcze |
+     naprawdê | nieraz | najpierw |
+     teraz | tylko | znów | zreszt± |
+     gdzie¶ | gdzie¶_tam | gdzie_indziej |
+     tutaj | dzisiaj | nareszcie |  oto | to | chyba | podobno
+ 
+BIER = cud | pomoc | zbawienie | ratunek | chleb | ból | my¶li |
+   otch³añ | pos³añca | anio³a | diab³a | truciznê | wodê |
+   mi³o¶æ | rozpacz | ¶mieræ | zag³adê | ukojenie | ³zy | muzykê |
+   hymn | modlitwê | p³acz | wo³anie | krzyk | nadziejê |
+   ciszê | nieskoñczono¶æ | sen | spokój | niepokój |
+   trwanie | ¿ycie
+
+DOP = ¶mierci | morza | mi³o¶ci | m³odo¶ci | staro¶ci | nieba | piek³a |
+   ciemno¶ci | blasku | jutrzenki | ¶witu | cienia | 
+   mroku | wody | rzeki | ¼ród³a | mocy | nocy | dnia | ¶wiata | ziemi |
+   s³oñca | ksiê¿yca | cierpienia | bólu | ¶wiat³a | snu | ¿ycia |
+   wiatru | chaosu | nico¶ci | pustki | snu | z³a | wieczno¶ci | pogardy |
+   tajemnicy
+   
+MSC = ciszy | milczeniu | nocy | ciemno¶ci | mroku | ¶mierci |
+   ¶miechu | ludziach | m±dro¶ci | ziemi | wodzie | morzu |
+   rzece | jeziorze | srebrze | czerni | niebie | b³êkicie |
+   piekle | têczy | nico¶ci | krzyku | rozpaczy | nadziei |
+   studni | otch³ani 
+
+DOP2 = PAUZA | PAUZA | DOP
+
+PAUZA = \0

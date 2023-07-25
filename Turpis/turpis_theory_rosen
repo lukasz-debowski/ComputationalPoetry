@@ -1,0 +1,72 @@
+#
+# TURPIS theory database
+#
+# Alexandr Rosen, 2004
+# e-mail: alexandr.rosen@ff.cuni.cz
+#
+ SYLLABLES
+#
+# The names of syllables must be single characters.
+#
+ A .		any_kind_of_syllable
+ U [\.\?\:]	unstressed_syllable
+ S [\!\?\:]	stressed_syllable
+#
+ VERSES 
+#
+# You can use only uppercase letters and digits in the names of verses.
+# Symbol "?" follows optional syllable.
+# 
+ A3 AUSUUSUUSU?
+ A2 AUSUUSU?
+ 13 AAAAASAAAAASU
+ 11 AAASAAAAASU
+ 05 AAASU
+ H5 AAAAA
+ H7 AAAAAAA
+ D7 SASASAS
+ 08 AAAAAAAA
+ 8F AAAAAASU
+ 8M AAAAAAAS
+ J4 USUSUSUS
+ J5 USUSUSUSU
+ D3 SUUSUUSU		
+ D2 SUUSUU
+ T4 SUSUSUSU
+ X8 SUUSUSUU
+ X7 SUUSUSU
+ X0 SUUSUSUUSU
+#
+ STANZAS 
+#
+# Symbol ";" is the empty line, "!n" is the n-th verse verbatim.
+# You can use only lowercase letters in the names of rhymes.
+#
+   limerick       A3a_A3a_A2b_A2b_A3a
+   sonet          11a_11b_11b_11a_;_11c_11d_11d_11c_;_11e_11f_11e_;_11g_11f_11g
+   tercina        11a_11b_11a_;_11b_11c_11b_;_11c_11d_11c_;_11d_11e_11d_;_11e_11f_11e
+   sextina        11a_11b_11a_11b_11c_11c
+   oktava         11a_11b_11a_11b_11a_11b_11c_11c
+   sapficky       11a_11b_11a_05b
+   pantadeusz     13a_13a_13b_13b_13c_13c_13d_13d
+   distichon      D7a_D7a
+   haiku          H5a_H7b_H5c
+   tanka          H5a_H7b_H5c_H7d_H7e
+   triolet        A3a_A3b_A3b_!1_A3a_A3b_!1_!2
+   villanella     11a_11b_11a_11a_11b_!1_11a_11b_!3_11a_11b_!1_11a_11b_!3_11a_11b_!1_!3
+   kvartetJ	  J4a_J4b_J4b_J4a
+   kvartetD32ab	  D3a_D2b_D3a_D2b
+   kvartetD32aa	  D3a_D2a_D3b_D2b
+   kvartetD33aa   D3a_D3a_D3b_D3b
+   kvartetD33ab   D3a_D3b_D3a_D3b
+   kvartetD33bb   D3a_D3b_D3b_D3a
+   kvartetDT87	  X8a_X8a_X7b_X7b
+   kvartetDT0	  X0a_X0b_X0b_X0a
+   balada	  08a_08b_08a_08b_08b_08c_08b_08c_;_08d_08e_08d_08e_08e_08c_08e_!8_;_08g_08h_08g_08h_08h_08c_08h_!8_;08i_08c_08i_!8
+   decima         J4a_J4b_J4b_J4a_J4a_J4c_J4c_J4d_J4d_J4c
+   gazel          08a_08a_08b_08a_08c_08a_08d_08a_08c_08a
+   nona           11a_11b_11a_11b_11a_11b_11c_11c_11b
+   terceto	  X0a_J4b_X0a
+   tirada         08a_08a_08a_08a_;_11a_11a_;_08a_08a_08a_08a_;_11a_11a
+   rondel         08a_08b_08a_08b_;_08b_08a_!1_!2_;_08a_08b_08b_08a_!1_!2
+   pantum         08a_08b_08b_08a_;!2_08b_!4_08a_;!6_08b_!8_08a_;!10_08b_!12_08a

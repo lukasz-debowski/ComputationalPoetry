@@ -1,0 +1,45 @@
+#
+# TURPIS default theory database
+#
+# £ukasz Dêbowski, 2004
+# e-mail: ldebowsk@ipipan.waw.pl
+#
+ SYLLABLES
+#
+# The names of syllables must be single characters.
+#
+ A .		any_kind_of_syllable
+ U [\.\?\:]	unstressed_syllable
+ S [\!\?\:]	stressed_syllable
+#
+ VERSES 
+#
+# You can use only uppercase letters and digits in the names of verses.
+# Symbol "?" follows optional syllable.
+# 
+ A3 AUSUUSUUSU?
+ A2 AUSUUSU?
+ 13 AAAAASAAAAASU
+ 11 AAASAAAAASU
+ 05 AAASU
+ H5 AAAAA
+ H7 AAAAAAA
+ D7 SASASAS
+#
+ STANZAS 
+#
+# Symbol ";" is the empty line, "!n" is the n-th verse verbatim.
+# You can use only lowercase letters in the names of rhymes.
+#
+ limeryk      A3a_A3a_A2b_A2b_A3a
+ sonet        11a_11b_11b_11a_;_11c_11d_11d_11c_;_11e_11f_11e_;_11g_11f_11g
+ tercyna      11a_11b_11a_;_11b_11c_11b_;_11c_11d_11c_;_11d_11e_11d_;_11e_11f_11e
+ sekstyna     11a_11b_11a_11b_11c_11c
+ oktawa       11a_11b_11a_11b_11a_11b_11c_11c
+ saficka      11a_11b_11a_05b
+ pantadeusz   13a_13a_13b_13b_13c_13c_13d_13d
+ dystych      D7a_D7a
+ haiku        H5a_H7b_H5c
+ tanka        H5a_H7b_H5c_H7d_H7e
+ triolet      A3a_A3b_A3a_!1_A3a_A3b_!1_!2
+ vilanella    11a_11b_11a_11a_11b_!1_11a_11b_!3_11a_11b_!1_11a_11b_!3_11a_11b_!1_!3
